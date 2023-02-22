@@ -1,0 +1,140 @@
+body{
+    background: #83a4d4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: 'Poppins', sans-serif;
+
+}
+
+h1,h5,h3,h2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    
+}
+.htmlcontent{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.htmlimg{
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px lightblue;
+    
+}
+p{
+   text-align: center;
+   
+}
+.buttonsdiv{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: #2c9caf;
+}
+.button {
+   
+   padding: 1em 0.7em;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #2c9caf;
+    transition: all 1000ms;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid #2c9caf;
+  }
+  
+  button:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+    outline: 2px solid #c2f7ff;
+    box-shadow: 4px 5px 17px -4px #c2f7ff;
+  }
+  
+  button::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #50c7dc;
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+  }
+  
+  button:hover::before {
+    width: 250%;
+  }
+.secondbuttonsdiv{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.cssimg{
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px lightblue;
+}
+
+.csscontent{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    color: transparent;
+
+}
+ul{
+   display: grid;
+   place-items: center;
+   font-size: large;
+   
+}
+.new{
+    color: white;
+    font-weight: 600;
+}
+.jsimg{
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px lightblue;
+}
+.jscontent{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width:600px){
+    .htmlimg{
+        margin-right: 7px;
+    }
+    p{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .newhead{
+        font-size: small;
+    }
+    ul{
+        margin-left: 50px;
+        margin-right: 90px;
+    }
+}
